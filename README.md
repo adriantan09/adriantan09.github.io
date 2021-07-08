@@ -4,9 +4,9 @@ Welcome to the repository for my latest portfolio website!
 
 ## Contents
 
-- [Setup](#setup)
 - [Context](#Context)
-- [The Theme](#Theme)
+- [Theme](#Theme)
+- [Setup](#setup)
 
 ## Context
 
