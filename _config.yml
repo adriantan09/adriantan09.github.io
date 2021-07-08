@@ -1,0 +1,16 @@
+# User config
+author: "Adrian Tan"
+tagline: ""
+description: "Thanks for visiting. Here's some of my content."
+keywords: ""
+email: "adrian.tan09@gmail.com"
+linkedin: "https://www.linkedin.com/in/adrian-tan09/"
+instagram: "https://www.instagram.com/adriantan09/"
+github: "https://github.com/adriantan09"
+
+# Site config
+baseurl: "jekyll-website"
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
