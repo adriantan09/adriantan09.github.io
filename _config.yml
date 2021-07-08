@@ -9,7 +9,7 @@ instagram: "https://www.instagram.com/adriantan09/"
 github: "https://github.com/adriantan09"
 
 # Site config
-baseurl: ""
+baseurl: "/jekyll-website"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
