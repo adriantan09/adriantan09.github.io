@@ -1,18 +1,26 @@
-# Pineapple
+# My Jekyll Portfolio Website
 
-Pineapple is a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
-
-![Pineapple screenshot](https://user-images.githubusercontent.com/9528895/38713105-6dda8a74-3ec7-11e8-8062-8aa6cf24c795.jpg)
-
-See Pineapple in action on the [demo site](https://arnolds.io/pineapple/).
+Welcome to the repository for my latest portfolio website! 
 
 ## Contents
 
 - [Setup](#setup)
-- [Deploy to Github Pages](#deploy-to-github-pages)
-- [Creating projects](#creating-projects)
-- [Resources](#resources)
-- [License](#license)
+- [Context](#Context)
+- [The Theme](#Theme)
+
+## Context
+
+This website was built using Jekyll (a static site generator). Before this project, I took on the initial challenge of trying to construct my website with vanilla HTML, CSS and Javascript. It was only until I moved on from the landing that I began to realise that I would need to copy-and-paste a lot of similar code across pages (such as headers and footers). The major issue I found with this is that if I ever want to change a web component such as the header or footer, I would need to make changes to every webpage that used that web component.
+
+Here is a link to the [repository](https://github.com/adriantan09/website) of the discontinued [website](https://adriantan09.github.io/website/)
+
+It was at this point that I went back to the drawing board to see what other people on the internet had done. After researching, I found that static site generators would help to solve the issue I was experiencing. The setup and structure of these projects is also straightforward and simple, especially if you use a theme.
+
+## Theme
+
+For those curious, the [Jekyll](https://jekyllrb.com) theme I am using is called Pineapple.
+
+See [Pineapple](https://github.com/arnolds/pineapple) in action on the [demo site](https://arnolds.io/pineapple/).
 
 ## Setup
 
@@ -25,8 +33,8 @@ $ gem install jekyll bundler
 Pulldown the project:
 
 ```
-$ git clone git@github.com:arnolds/pineapple.git
-$ cd pineapple
+$ git clone https://github.com/adriantan09/jekyll-website.git
+$ cd jekyll-website
 ```
 
 Start Jekyll:
@@ -35,21 +43,4 @@ Start Jekyll:
 $ jekyll serve
 ```
 
-Browse to http://127.0.0.1:4000/pineapple/ for some Pineapple goodness.
-
-## Deploy to Github Pages
-
-1. Fork this repository, then rename the repository to yourgithubusername.github.io.
-2. Update user configuration values in `_config.yml`, and also set `baseurl: ""`.
-
-## Creating projects
-
-Projects are created as `.md` documents within the `_posts/projects` directory. They follow the same naming conventions as regular [Jekyll posts](https://jekyllrb.com/docs/posts/). Pineapple comes with four example projects, which you should use as a guide for creating your own e.g. [Red Pineapple](_posts/projects/2017-04-01-redpineapple.md).
-
-## Resources
-
-- [Apple Devices PSD Mockup Templates](https://www.graphicsfuel.com/2016/04/apple-devices-psd-mockup-templates/)
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
+Browse to http://127.0.0.1:4000/jekyll-website/ for some goodness.
