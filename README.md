@@ -24,17 +24,23 @@ See [Pineapple](https://github.com/arnolds/pineapple) in action on the [demo sit
 
 ## Setup
 
+Intall ruby
+
+```
+$ brew install ruby
+```
+
 Install dependencies:
 
 ```
-$ gem install jekyll bundler
+$ sudo gem install jekyll bundler
 ```
 
 Pulldown the project:
 
 ```
-$ git clone https://github.com/adriantan09/jekyll-website.git
-$ cd jekyll-website
+$ git clone https://github.com/adriantan09/adriantan09.github.io.git
+$ cd adriantan09.github.io
 ```
 
 Start Jekyll:
@@ -43,4 +49,4 @@ Start Jekyll:
 $ jekyll serve
 ```
 
-Browse to http://127.0.0.1:4000/jekyll-website/ for some goodness.
+Browse to http://127.0.0.1:4000/ for some goodness.
